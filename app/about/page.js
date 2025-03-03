@@ -1,9 +1,12 @@
 import Header from "@/app/layout/header";
+import React from "react";
 
-export default function Home() {
+function About(props) {
   return (
     <div className="">
       <Header />
     </div>
   );
 }
+
+export default About;
